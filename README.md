@@ -1,4 +1,4 @@
-# Building-A-Handwritten-Digit-Classifier
+ # Building-A-Handwritten-Digit-Classifier
 This repository contains the code for classifying images of handwritten digits using different machine learning and Neural Network models. The idea behind this project was to understand how to implement image classification in machine learning while exploring the advantages and limitations of different conventional and neural network models. 
 
 # Outline of Approach
@@ -15,7 +15,7 @@ Classifying with KNN has a maximum accuracy of 96.7% and it decreases with k (i.
 While the project showed that the accuracy of prediction by neural network model can be improved by incorporating more neurons and hidden layers in the model, it is not clear if the accuracy can be further improved for an optimized combination of neurons, hidden layers and other parameters (e.g. activation function). While neural network is known to be a better alternative of traditional Machine Learning models such as KNN or Random Forest, KNN gave the best accuracy for the modeling parameters explored for each model in this project. Future work on this project can be performing a hyper-parameter optimization using available packages such as GridSearchCV or RandomSearchCV and then comparing all the models in terms of their best prediction score.
 
 #Files in the Repository
-Basic.ipynb contains the code written in a Jupyter Notebook for Python 3.
-requirements.txt contains a list of all the packages used in the project.
+*HandWrittenDigitClassifier.ipynb* contains the code written in a Jupyter Notebook for Python 3.
+*requirements.txt* contains a list of all the packages used in the project.
 
 
